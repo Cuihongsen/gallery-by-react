@@ -49,8 +49,8 @@ function getDefaultModules() {
         loader: 'url-loader?limit=8192'
       },
       {
-        test: /\.json/,
-        loader: 'json-loader'
+        test: /\.json5$/,
+        loader: 'json5-loader'
       },
       {
         test: /\.(mp4|ogg|svg)$/,
